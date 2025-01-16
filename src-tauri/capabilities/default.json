@@ -1,0 +1,32 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "enables the default permissions",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "sql:default",
+    "sql:allow-execute",
+    "http:default",
+    "fs:allow-app-write-recursive",
+    "fs:allow-app-read-recursive",
+    "shell:allow-open",
+    {
+      "identifier": "http:default",
+      "allow": [
+        {
+          "url": "http://127.0.0.1:8000/"
+        },
+        {
+          "url": "http://.*"
+        },
+        {
+          "url": "http://113.31.114.236:8000/"
+        }
+      ]
+    },
+    "store:default"
+  ]
+}

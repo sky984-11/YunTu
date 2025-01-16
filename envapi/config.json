@@ -1,0 +1,12 @@
+{
+  "API_VERSION": "v1",
+  "APP_VERSION": "0.2.6",
+  "API_HOST": "0.0.0.0",
+  "API_PORT": 8000,
+  "APP_UPDATE_LOG": [
+    "* 发版脚本中增加cargo.toml版本自动修改"
+  ],
+  "APP_UPDATE_LINK": "https://mirror.ghproxy.com/https://github.com/sky984-11/YunTu/releases/download/v0.2.6/YunTu_v0.2.6.apk",
+  "APP_FORCE_UPDATE": false,
+  "DATABASE_URL": "sqlite+aiosqlite:///./yuntu.db"
+}

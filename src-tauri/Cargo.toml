@@ -1,0 +1,39 @@
+[package]
+name = "云图记账"
+version = "0.2.6"
+description = "一款截图记账App"
+authors = ["刘鹏"]
+license = ""
+repository = ""
+edition = "2021"
+rust-version = "1.77.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.1", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+tauri = { version = "2.0.2", features = [] }
+tauri-plugin-log = "2.0.0-rc"
+tauri-plugin-http = "2"
+tauri-plugin-store = "2"
+tauri-plugin-fs = "2.0.0"
+tauri-plugin-shell = "2.0.0"
+[dependencies.tauri-plugin-sql]
+features = ["sqlite"] # or "postgres", or "mysql"
+version = "2.0.0-rc"
+
+[profile.release]
+panic = "abort" # Strip expensive panic clean-up logic
+codegen-units = 1 # Compile crates one after another so the compiler can optimize better
+lto = true # Enables link to optimizations
+opt-level = "s" # Optimize for binary size
+strip = true # Remove debug symbols
