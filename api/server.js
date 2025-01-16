@@ -2,13 +2,12 @@
  * @Description: 
  * @Author: sky
  * @Date: 2024-09-19 08:56:50
- * @LastEditTime: 2024-11-19 15:47:22
- * @LastEditors: sky
+ * @LastEditTime: 2025-01-16 14:56:49
+ * @LastEditors: liupeng
  */
 import { http } from '@/utils/request';
 
-const BASE_URL = 'http://113.31.114.236:8000/api/v1';
-// const BASE_URL = 'http://127.0.0.1:8000/api/v1';
+const BASE_URL = 'http://127.0.0.1:8000/api/v1';
 
 export default class Api {
     /**
