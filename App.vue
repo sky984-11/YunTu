@@ -13,14 +13,6 @@ import Api from '@/api/server';
 
 const dialog = ref({
     open: false,
-    // version :"1.0.1",
-    // forceUpdate:false,
-    // updateLogs:[
-    // "优化了用户界面体验。",
-    // "修复了若干已知的 Bug。",
-    // "提升了整体性能和稳定性。",
-    // ],
-    // link:'https://github.com/tauri-apps/tauri'
 })
 
 async function initData() {
@@ -32,8 +24,6 @@ async function initData() {
             dialog.value.open = true
         }
     })
-
-
 
 }
 

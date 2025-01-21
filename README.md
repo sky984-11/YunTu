@@ -14,9 +14,13 @@
 
 - **前端**：Vue 3 + PrimeVue + TailwindCSS
 - **后端**：FastAPI，用于图片上传和 OCR 解析处理
-- **数据库**：SQLite
+- **数据库**：采用tauri的SQLite插件本地存储
 - **OCR 引擎**：基于PaddleOCR
 - **跨平台打包**：Tauri  实现多端打包
+
+
+## 功能截图
+
 
 ## 安装步骤
 
