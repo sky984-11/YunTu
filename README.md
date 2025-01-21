@@ -21,6 +21,22 @@
 
 ## 功能截图
 
+### 菜单
+![image](https://github.com/user-attachments/assets/9036fb86-4c9a-4e9c-a395-93868de67846)
+
+### 首页
+![image](https://github.com/user-attachments/assets/b54c3fd8-3a51-4ddf-8c46-f7070573b5d2)
+
+### 统计
+![image](https://github.com/user-attachments/assets/76d31106-45ba-4afe-8d54-f64c14f61595)
+
+### 每日回顾
+![image](https://github.com/user-attachments/assets/11165a86-d70e-45a2-9f89-bbad9231ef40)
+
+### 账单导入
+![image](https://github.com/user-attachments/assets/a9d80e9e-7601-46af-946f-0fde6d925fe7)
+
+
 
 ## 安装步骤
 
