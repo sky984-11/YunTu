@@ -28,5 +28,14 @@ envapi/include/
 envapi/lib/
 envapi/lib64/
 envapi/pyvenv.cfg
-public/demo
+envapi/file
+envapi/__pycache__/
+envapi/lib64/
+envapi/share/
+envapi/yuntu.db
+envapi/test.py
+
 src-tauri/gen
+
+
+todo.md
